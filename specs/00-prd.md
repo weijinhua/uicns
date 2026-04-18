@@ -31,3 +31,4 @@
 - Low latency
 - Easy to scale
 - team familiar nestjs, nextjs and typescript
+- Must have CI/CD
