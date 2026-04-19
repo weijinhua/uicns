@@ -20,10 +20,11 @@ description: "Task list template for feature implementation"
 
 ## Path Conventions
 
+- **Monorepo (Charts Generator default)**: `apps/web/` (Next.js), `apps/api/` (NestJS), `packages/contracts/` (shared types and API contracts), `packages/ui/` (shared components/tokens); tests colocated or under app/package `test(s)/` per plan
 - **Single project**: `src/`, `tests/` at repository root
-- **Web app**: `backend/src/`, `frontend/src/`
+- **Web app (generic)**: `backend/src/`, `frontend/src/`
 - **Mobile**: `api/src/`, `ios/src/` or `android/src/`
-- Paths shown below assume single project - adjust based on plan.md structure
+- Paths in generated tasks MUST match structure in `plan.md` — replace samples below with real paths
 
 <!-- 
   ============================================================================

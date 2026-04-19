@@ -114,6 +114,11 @@
 - **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
 - **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
 
+## Constitution Alignment *(mandatory)*
+
+- Feature requirements and user stories MUST remain consistent with `.specify/memory/constitution.md` normative MUST statements.
+- If a proposed requirement conflicts with the constitution, resolve it via an explicit constitution amendment or scope change before `/speckit.plan` — do not silently ignore MUST rules.
+
 ## Assumptions
 
 <!--

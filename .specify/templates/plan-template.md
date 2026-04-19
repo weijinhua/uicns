@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify against `.specify/memory/constitution.md` (see version line in that file):
+
+- **Specification-driven**: Scope maps to spec user stories and requirements; no orphan work outside agreed success criteria.
+- **Monorepo boundaries**: Plan places code under `apps/web`, `apps/api`, or `packages/*` as appropriate; no browser-side secrets or direct LLM calls from the client.
+- **Shared contracts**: New or changed HTTP payloads and shared types are reflected in `packages/contracts` (or documented exception with migration).
+- **Verification**: Plan notes impact on lint, typecheck, and tests; includes test/design tasks when the spec mandates them.
+- **Simplicity**: New services, stores, or infrastructure are justified; prefer the smallest change that meets the spec.
 
 ## Project Structure
 
