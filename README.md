@@ -61,4 +61,4 @@ Set real `LLM_API_KEY` and secrets via `apps/api/.env` or compose overrides for 
 
 ## Specs
 
-Product and technical specs live under `specs/`. Project governance (principles, quality gates) is in `.specify/memory/constitution.md`.
+Product and technical specs live under `specs/`. Project governance—spec-driven delivery, package boundaries, contracts, code quality, testing, UX consistency, and performance—is in `.specify/memory/constitution.md`.

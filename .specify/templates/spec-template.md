@@ -118,6 +118,7 @@
 
 - Feature requirements and user stories MUST remain consistent with `.specify/memory/constitution.md` normative MUST statements.
 - If a proposed requirement conflicts with the constitution, resolve it via an explicit constitution amendment or scope change before `/speckit.plan` — do not silently ignore MUST rules.
+- When the feature affects UX, performance, or test coverage in a material way, success criteria or requirements MUST state the expected behavior (e.g., locale coverage, latency or load expectations, mandatory test levels) so plans and tasks can verify them.
 
 ## Assumptions
 

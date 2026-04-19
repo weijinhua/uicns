@@ -152,9 +152,10 @@ Examples of foundational tasks (adjust based on your project):
 **Purpose**: Improvements that affect multiple user stories
 
 - [ ] TXXX [P] Documentation updates in docs/
-- [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
-- [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
+- [ ] TXXX Code cleanup and refactoring (no unrelated refactors per constitution)
+- [ ] TXXX [P] UX/i18n pass: strings via i18n, shared components from `packages/ui` where applicable
+- [ ] TXXX Performance pass: hot paths, query shapes, bundle impact for touched surfaces
+- [ ] TXXX [P] Additional unit or contract tests (if requested or required by spec) in tests/unit/ or package test dirs
 - [ ] TXXX Security hardening
 - [ ] TXXX Run quickstart.md validation
 

@@ -36,8 +36,10 @@ Verify against `.specify/memory/constitution.md` (see version line in that file)
 - **Specification-driven**: Scope maps to spec user stories and requirements; no orphan work outside agreed success criteria.
 - **Monorepo boundaries**: Plan places code under `apps/web`, `apps/api`, or `packages/*` as appropriate; no browser-side secrets or direct LLM calls from the client.
 - **Shared contracts**: New or changed HTTP payloads and shared types are reflected in `packages/contracts` (or documented exception with migration).
-- **Verification**: Plan notes impact on lint, typecheck, and tests; includes test/design tasks when the spec mandates them.
-- **Simplicity**: New services, stores, or infrastructure are justified; prefer the smallest change that meets the spec.
+- **Code quality**: Plan respects lint/typecheck gates; avoids scope creep and unrelated refactors in the same delivery.
+- **Testing standards**: Plan notes impact on lint, typecheck, and tests; includes test tasks when the spec mandates them or when contracts or boundaries change materially.
+- **UX consistency**: UI work uses `packages/ui` and i18n where applicable; deviations are called out in the spec.
+- **Performance**: Plan addresses data-fetching shape, bundle or latency risks when the feature is user-facing or load-bearing; new infrastructure is justified.
 
 ## Project Structure
 
