@@ -1,0 +1,71 @@
+.shell {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  border-right: 1px solid var(--cg-color-border);
+  padding: var(--cg-space-4);
+  background: var(--cg-color-surface);
+}
+
+.sidebarTitle {
+  margin: 0 0 var(--cg-space-3);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.placeholder {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--cg-color-text-muted);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.chartPanel {
+  flex: 1;
+  padding: var(--cg-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cg-space-3);
+}
+
+.panelTitle {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.chartPlaceholder {
+  flex: 1;
+  min-height: 200px;
+  border: 1px dashed var(--cg-color-border);
+  border-radius: var(--cg-radius-md);
+  background: var(--cg-color-surface);
+}
+
+.controls {
+  border-top: 1px solid var(--cg-color-border);
+  padding: var(--cg-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cg-space-3);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--cg-space-2);
+}
+
+.health {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--cg-color-text-muted);
+}

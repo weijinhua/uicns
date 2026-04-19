@@ -1,0 +1,13 @@
+{
+  "app": {
+    "title": "Charts Generator",
+    "tagline": "Generate charts from natural language"
+  },
+  "home": {
+    "sidebarTitle": "Chart history",
+    "chartAreaTitle": "Chart",
+    "promptPlaceholder": "Describe your data and intent, e.g. compare monthly sales…",
+    "send": "Generate",
+    "healthCheck": "Check API"
+  }
+}

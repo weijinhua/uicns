@@ -1,0 +1,20 @@
+/**
+ * Design tokens — import in app root layout: @charts-generator/ui/tokens.css
+ */
+:root {
+  --cg-color-bg: #0f1419;
+  --cg-color-surface: #1a2332;
+  --cg-color-border: #2d3a4d;
+  --cg-color-text: #e7edf5;
+  --cg-color-text-muted: #8b9bb0;
+  --cg-color-primary: #3b82f6;
+  --cg-color-primary-hover: #2563eb;
+  --cg-radius-sm: 6px;
+  --cg-radius-md: 10px;
+  --cg-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Microsoft YaHei",
+    sans-serif;
+  --cg-space-2: 0.5rem;
+  --cg-space-3: 0.75rem;
+  --cg-space-4: 1rem;
+}

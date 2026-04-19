@@ -1,0 +1,35 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cg-space-2);
+  width: 100%;
+}
+
+.label {
+  font-family: var(--cg-font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--cg-color-text-muted);
+}
+
+.input {
+  font-family: var(--cg-font-sans);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--cg-color-text);
+  background-color: var(--cg-color-bg);
+  border: 1px solid var(--cg-color-border);
+  border-radius: var(--cg-radius-sm);
+  padding: var(--cg-space-2) var(--cg-space-3);
+  width: 100%;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.input:focus {
+  border-color: var(--cg-color-primary);
+}
+
+.input::placeholder {
+  color: var(--cg-color-text-muted);
+}

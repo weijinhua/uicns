@@ -1,0 +1,16 @@
+{
+  "name": "@charts-generator/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "dependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.13.0",
+    "typescript-eslint": "^8.18.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  }
+}

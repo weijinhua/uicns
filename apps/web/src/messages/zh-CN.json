@@ -1,0 +1,13 @@
+{
+  "app": {
+    "title": "Charts Generator",
+    "tagline": "用自然语言生成图表"
+  },
+  "home": {
+    "sidebarTitle": "历史图表",
+    "chartAreaTitle": "图表",
+    "promptPlaceholder": "输入数据与说明，例如比较各月销售额…",
+    "send": "生成",
+    "healthCheck": "检查 API"
+  }
+}
